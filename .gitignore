@@ -1,0 +1,14 @@
+# environment
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# big or generated data (notebooks / scripts rebuild these)
+data/cwc_hourly.parquet
+data/*.part
+data/flood_clean.csv
+data/flood_features.csv
+data/assam_real_flood_dataset.csv
+app/live_levels.csv
